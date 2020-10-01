@@ -1,0 +1,29 @@
+body{
+    font-family: 'Permanent Marker', cursive;
+    background-image: url("img/rosa.jpg");
+}
+h1{
+    color: #8200DB;
+    /* para centrar con flex: */
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: #DB1068;
+}
+a:hover{ 
+    color: #DB15D5;
+}
+nav{
+    background-color: #1a002b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
